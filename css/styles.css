@@ -1,0 +1,180 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: grey;
+}
+
+#title {
+  padding: 5%;
+}
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1.5;
+  color: white;
+  text-shadow: 2px 2px 8px black;
+}
+
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/*sections*/
+.color-section {
+    background-color: #ff4c68;
+}
+
+.white-section {
+    background-color: white;
+
+}
+
+.navbar {
+  padding: 0 15%;
+  background-color: #ff4c68;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-item {
+  font-size: 1rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.tittle-image {
+  transform: rotate(20deg);
+  position: absolute;
+  width: 25%;
+  left: 50%;
+}
+
+.tittle-image-container{
+height:400px;}
+
+#features {
+position: relative;
+}
+
+.icon {
+color: #ff4c68;
+width: 200px;
+margin-bottom: 1rem;}
+
+.icon:hover{
+  color: #ef8172;
+}
+
+.col-features{
+padding:0 5%;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.test-pict {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+#press {
+  padding-bottom: 3%;
+  margin-top: 0;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 1rem;
+}
+
+
+.button-control {
+  border: none;
+  opacity: 0.1;
+  background-color: #ef8172;
+}
+
+.button-control:hover {
+  opacity: 0.8;
+}
+
+#pricing{
+  padding-top: 3%;
+
+}
+
+.card-body {
+  height:17rem;
+}
+
+.btn-price:hover {
+  background-color:#ef8172;
+}
+
+.card-header{
+  background-color:#ef8172;
+  color: white;
+}
+
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  color: white;
+}
+
+#footer {
+  padding: 5%;
+  color: grey;
+
+}
+
+.fab-footer{
+  margin: 1%;
+  margin-bottom: 2%;
+  color:grey;
+}
+.fab-footer:hover{
+  color: black;
+}
